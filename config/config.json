@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "santiago",
+    "password": "1234",
+    "database": "rentalibros",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "1234",
+    "database": "rentalibros",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "dovkmwjovykrmb",
+    "password": "126a48f56791a3ef3063d1bf820e98bb836592ce37a8d1c91163f6e845efaa6f",
+    "database": "d4cd6kanumsflv",
+    "host": "ec2-50-19-219-69.compute-1.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    }
+  }
+}
